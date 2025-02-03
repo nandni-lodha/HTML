@@ -3,4 +3,16 @@ HTML stands for hyper markup language
 HTML is a standard markup language 
 using HTML we develup web pages
 HTML is not a programming language 
-html
+HTML Elements:| An HTML Elements is a start tag and an end tag with content in between 
+              |<h1> this heading </h1>
+              |<title>this is my first web-pag</title>
+Start tag    Element content    End tag 
+<h1>         this is heading     </h1>     
+<p>          this is pragraph    </p>
+HTML Attributes:| HTmL elements can have ettributes provide cdditional information about the elemements.
+                | attributes are always specified in the start tag. attributes come in name/value pairs like height "10"
+The Widht and Height Attributes:
+The <img> tag sould also contain the width and height attributes which specifies the width and height of the image(in pixes)
+                    <img src="UK.JPG" height="270" widht="540"
+
+
