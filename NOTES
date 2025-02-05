@@ -16,3 +16,30 @@ The <img> tag sould also contain the width and height attributes which specifies
                     <img src="UK.JPG" height="270" widht="540"
 
 
+**title** web page name 
+**body** hedding, paragraph.
+**<br>** line breck 
+**&nbsp** space 
+
+
+
+
+__________________________________________________________________________________________________________________________________________
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>This is my first webpage</title>
+	</head>
+	<body>
+		<p>Hello word, thanks for showing your in our HTMl Tutorial.
+			<br> Here we're gonna learn how to code in HTML language.
+			<br> I really appreciate your interest, patience and time so let's start.</p>
+
+	</body>
+</html>
+~_________________________________________________________________________________________
+
+
+
+
