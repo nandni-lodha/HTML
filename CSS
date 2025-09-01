@@ -1,0 +1,2002 @@
+Cascading Style Sheets 
+CSS stands for Cascading Style Sheets 
+HTML was created to describe the content of a web page. HTML was never intended to contain tags for formatting a web page . CSS removed the style formating from the HTML page.
+
+CSS is used to define style for your web pages, including the design, layout and variations in display for different devices and screen sizes.
+
+CSS Saves a lot of work : with an external stylesheet 
+
+
+
+
+
+
+
+
+html
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>My web page</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+<h2>Hi dear !!!</h2>
+    </body>
+</html>
+Css
+h2{color:red}
+
+
+inline 
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>My web page</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+<h2 style="color: red">Hello there, my name is nandini.</h2>
+    </body>
+</html>
+Internal
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>My web page</title>
+        <style media="screen">
+        h2{color: red}
+        </style>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+<h2>Hello there, my name is nandini.</h2>
+<h2>Hello</h2>
+<h2>there</h2>
+<h2>nandini</h2>
+    </body>
+</html>
+External Html
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>My web page</title>   
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+<h2>Hello there, my name is nandini.</h2>
+<h2>Hello</h2>
+<h2>there</h2>
+<h2>nandini</h2>
+    </body>
+</html>
+Css
+h2{color:red}
+<style media="screen">
+h2{color: red}
+</style>
+
+Id #
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>My web page</title>
+        <link rel="stylesheet" href="index.css">
+        <style media="screen">
+            #red{color: red}
+        </style>
+    </head>
+    <body>
+<h2>Hello there </h2>
+<h2 id="red">My name is nandini </h2>
+<h3>Welcome back to</h3>
+<h3>our channel</h3>
+<p> <big> Thanks for watching our video</big></p>
+    </body>
+</html>
+Universal  *
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>My web page</title>
+
+
+        <link rel="stylesheet" href="index.css">
+        <style media="screen">
+            *{color: red}
+        </style>
+    </head>
+    <body>
+           <h2>Hello there </h2>
+           <h2>My name is nandini </h2>
+           <h3 style="color: green">Welcome back to</h3>
+           <h3>our channel</h3>
+           <p> <big> Thanks for watching our video</big></p>
+  </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
+Grouping & Class Selector in CSS
+html
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+                <style media="screen">
+                h2.red{color: red}
+                </style>
+        <title>My web page</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+<h1 class="red">Hello </h1>
+<h2  class="red">there </h2>
+<h3 >my name is </h3>
+<p>nandni lodha</p>
+    </body>
+</html>
+Css
+h2.red{color: red}
+
+
+
+
+
+
+
+Comments in CSS & HTML
+ Comment karna html
+DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>My web page</title>
+    </head>
+    <body>
+       <h1> Hello there, this is Nandni Lodha </h1><!-- the main person-->
+    </body></html>  
+ Css
+/*comment */!--- comment - ->
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h2 style="background-color:#FF0000"> Red</h2>
+    <h2 style="background-color:rgb(255,0, 0)"> Red</h2>
+    <h2 style="background-color:hsl(0, 100%, 80%)"> Red</h2>
+  </body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>color style in css</title>
+  </head>
+  <body>
+    <h2 style="background-color:#FF0000"> Red</h2>
+    <h2 style="background-color:rgba(255, 0, 0, 0.9)"> Red</h2>
+    <h2 style="background-color:hsla(0, 100%, 50%, 0.5)"> Red</h2>
+  </body> /html>
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My web page</title>
+    <style>
+        body{
+
+
+            background-color: rgba(255, 0, 0, 0.5);
+
+
+            background-image: url(logo2.jpg);
+
+
+            background-repeat: no-repeat;
+        }
+    </style>
+
+
+  </head>
+
+
+  <body>
+
+
+    <h2 >Hello there!!</h2>
+
+
+  </body>
+
+
+</html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My web page</title>
+    <style media="">
+        #div1{color: red;}
+        #LG{color:green;}
+      #Apple{color:initial;}
+      #Nokia{color: inherit;}
+    </style>
+  </head>
+  <body >
+    <div id="div1">
+      Mobile Brands <br>
+      <a  id="LG"href="#">LG</a><br>
+      <a id="Apple"href="#">Apple</a><br>
+      <a id="Nokia" href="#">Nokia</a><br>
+    </div>
+  </body>
+</html>
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My web page</title>
+    <style media="screen">
+        h1{background-image: linear-gradient(blue, black,red, green); height: 300px; width: 300px}
+//    h1{background-image: repeating-linear-gradient(blue, black,red, green); height: 300px; width: 300px}
+    </style>
+  </head>
+  <body >
+    <h1></h1>
+  </body>
+</html>
+ qqqqqqqqppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppq
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My web page</title>
+    <style media="screen">
+        h1{background-image: radial-gradient(blue, black,red, green);  height: 300px; width: 300px}
+
+
+    </style>
+  </head>
+  <body >
+    <h1> </h1>
+  </body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My web page</title>
+    <style media="screen">
+        h1{background-image: repeating-radial-gradient(blue, black,red, green);  height: 300px; width: 300px}
+
+
+    </style>
+  </head>
+  <body >
+    <h1> </h1>
+  </body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My web page</title>
+    <style media="screen">
+        h1{background-image: repeating-radial-gradient(Closest-side at 50% 50%,blue, black,red, green);  height: 300px; width: 300px}
+
+
+    </style>
+  </head>
+  <body >
+    <h1> </h1>
+  </body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My web page</title>
+    <style media="screen">
+        body{
+          background-image: url(logo2.jpg);
+          background-repeat: no-repeat;
+          background-position: right, left, top, Bottom, center;
+          height: 1000px;
+          width: 1000px;
+        }
+    </style>
+  </head>
+  <body >
+    <h1> </h1>
+  </body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My web page</title>
+    <style media="screen">
+      div{
+          background-image: url(logo2.jpg);
+          background-repeat: no-repeat;
+          height: 1000px;
+          width: 1000px;
+          border: 2px solid;
+          background-size: cover, auto, containt ;
+        }
+
+
+    </style>
+  </head>
+  <body >
+    <div class="">
+      <h1> </h1>
+
+
+    </div>
+
+
+  </body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My web page</title>
+    <style media="screen">
+      div{
+          background-image: url(logo2.jpg);
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          height: 1000px;
+          width: 1000px;
+          border: 2px solid;
+          background-size:;
+        }
+
+
+    </style>
+  </head>
+  <body >
+    <div class="">
+      <h1>Hello there! I hope all are fine. </h1>
+      <h1>Hello there! I hope all are fine. </h1>
+      <h1>Hello there! I hope all are fine. </h1>
+      <h1>Hello there! I hope all are fine. </h1>
+         <h1>Hello there! I hope all are fine. </h1>
+         <h1>Hello there! I hope all are fine. </h1>
+         <h1>Hello there! I hope all are fine. </h1>
+         <h1>Hello there! I hope all are fine. </h1>
+         <h1>Hello there! I hope all are fine. </h1>
+         <h1>Hello there! I hope all are fine. </h1>
+         <h1>Hello there! I hope all are fine. </h1>
+         <h1>Hello there! I hope all are fine. </h1                       
+    </div>
+  </body>
+</html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My web page</title>
+    <style media="screen">
+      div{
+          background-image: url(logo2.jpg);
+          background-repeat: no-repeat;
+          border: 2px dotted grey;
+          padding: 20px;
+          background-origin:border-box ;
+        }
+    </style>
+  </head>
+  <body >
+    <div class="cont">
+      <h1>Hello there! How is everything going?</h1>
+       <h1>Hello there! How is everything going?</h1>
+       <h1>Hello there! How is everything going?</h1>
+       <h1>Hello there! How is everything going?</h1>
+       <h1>Hello there! How is everything going?</h1>
+       <h1>Hello there! How is everything going?</h1>
+       <h1>Hello there! How is everything going?</h1>
+       <h1>Hello there! How is everything going?</h1>                                  
+    </div>
+  </body>
+</html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My web page</title>
+    <style media="screen">
+      .cont{
+          border: 2px dotted grey;
+          padding: 20px;
+          background-origin:border-box;
+          background-clip:content-box;
+          background-color:green;
+            }
+    </style>
+  </head>
+  <body >
+    <div class="cont">
+      <h1>Hello there! How is everything going?</h1>
+      <h1>Hello there! How is everything going?</h1>
+      <h1>Hello there! How is everything going?</h1>
+      <h1>Hello there! How is everything going?</h1>
+      <h1>Hello there! How is everything going?</h1>
+      <h1>Hello there! How is everything going?</h1>
+      <h1>Hello there! How is everything going?</h1>
+      <h1>Hello there! How is everything going?</h1>                     
+    </div>
+  </body>
+</html>
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My web page</title>
+    <style media="screen">
+  .ele{
+    border: 20px solid grey;
+  }
+    </style>
+  </head>
+  <body >
+    <div class="ele">
+      <h1>Hello There! How are you?</h1>
+      <h1>Hello There! How are you?</h1>
+      <h1>Hello There! How are you?</h1>
+      <h1>Hello There! How are you?</h1>
+      <h1>Hello There! How are you?</h1>
+      <h1>Hello There! How are you?</h1>
+      <h1>Hello There! How are you?</h1>
+    </div>
+  </body>
+</html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My web page</title>
+    <style media="screen">
+  .ele{
+  border-top-style: dotted;
+  border-bottom-style: groove;
+  border-left-style: double;
+  border-right-style: dashed;
+
+
+  }
+    </style>
+  </head>
+  <body >
+    <div class="ele">
+      <h1>Hello There! How are you?</h1>
+      <h1>Hello There! How are you?</h1>
+      <h1>Hello There! How are you?</h1>
+      <h1>Hello There! How are you?</h1>
+      <h1>Hello There! How are you?</h1>
+      <h1>Hello There! How are you?</h1>
+     <h1>Hello There! How are you?</h1>
+    </div>
+  </body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My web page</title>
+    <style media="screen">
+  .ele{
+  border-width: 10px;
+  border-style: solid;
+  border-color: red;
+  border-top-left-radius: 40px;
+
+
+  }
+    </style>
+  </head>
+  <body >
+    <div class="ele">
+      <h1>Hello There!!!!!!!</h1>
+      <h1>Hello There!!!!!!!</h1>
+      <h1>Hello There!!!!!!!</h1>
+      <h1>Hello There!!!!!!!</h1>
+      <h1>Hello There!!!!!!!</h1>
+      <h1>Hello There!!!!!!!</h1>
+      <h1>Hello There!!!!!!!</h1>
+    </div>
+  </body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My web page</title>
+    <style media="screen">
+  .ele{
+  border: 2px solid;
+  margin: 20px 50px 10px 70px;
+}
+  .ele{
+  border-style:2px solid;
+  }
+    </style>
+  </head>
+  <body >
+    <div class="ele">
+      <h1>Hello There</h1>
+      <h1>Hello There</h1>
+      <h1>Hello There</h1>
+      <h1>Hello There</h1>
+      <h1>Hello There</h1>
+      <h1>Hello There</h1>
+      <h1>Hello There</h1>
+    </div>
+  </body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My web page</title>
+    <style media="screen">
+  .ele{
+  border: 2px solid;
+  margin: 20px 50px 10px 70px;
+}
+  .ele{
+  border-style:2px solid;
+padding:50px 50px 50px 50px;
+  }
+    </style>
+  </head>
+  <body >
+    <div class="ele">
+      <h1>Hello There!</h1>
+    </div>
+  </body>
+</html>
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My web page</title>
+    <style media="screen">
+  p{
+    border: 2px solid;
+    min-width: 600px;
+  max-width: 900px;
+  }
+    </style>
+  </head>
+  <body >
+  <p>Where does it come from?
+Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cities of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+
+
+The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+
+
+  </body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My web page</title>
+    <style media="screen">
+  p{
+    width: 600px;
+padding: 20px 20px 20px 20px;
+    border: 20px solid;
+    margin: 20px 20px 20px 20px;
+  }
+    </style>
+  </head>
+  <body >
+  <p>Where does it come from?
+Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, Consectetuer , from a Lorem Ipsum passage, and going through the cities of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+
+
+The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+
+
+  </body>
+</html>
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My web page</title>
+    <style media="screen">
+    .ele{
+      border: 10px solid red;
+
+
+      outline-width: 10px;
+      outline-style: dashed;
+      outline-color: green;
+
+
+    }
+
+
+    </style>
+  </head>
+  <body >
+    <div class="ele">
+      <h2>Hello there!</h2>
+      <h2>Hello there!</h2>
+      <h2>Hello there!</h2>
+      <h2>Hello there!</h2>
+    </div> 
+  </body>
+</html>
+
+
+__________________________________________________________________________
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My web page</title>
+    <style media="screen">
+    .ele{
+      margin: 20px;
+      border: 10px solid red;
+    outline: 10px solid green;
+    outline-offset: 10px;
+
+
+    }
+    .ele1{
+      border: 20px solid red;
+    }
+    </style>
+  </head>
+  <body >
+    <div class="ele">
+      <h2>Hello there!</h2>
+      <h2>Hello there!</h2>
+      <h2>Hello there!</h2>
+      <h2>Hello there!</h2>
+    </div>
+    <div class="ele1">
+      <h2>Hello there!</h2>
+      <h2>Hello there!</h2>
+      <h2>Hello there!</h2>
+      <h2>Hello there!</h2>
+    </div>
+  </body>
+</html>
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My web page</title>
+    <style media="screen">
+    p{
+      color: red;
+      text-align: center;
+        }
+    </style>
+  </head>
+  <body >
+    <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte.</p>
+
+
+  </body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My web page</title>
+    <style media="screen">
+    p{
+      text-indent: 25px;
+      word-spacing: 12px;
+        line-height: 20px;
+    }
+    a{
+      text-decoration: none;
+        }
+        h2{
+          text-decoration: underline;
+          letter-spacing: 10px;
+        }
+    </style>
+  </head>
+  <body >
+    <a href="#">Facebook</a>
+    <h2>Hello there!</h2>
+
+
+    <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte.</p>
+
+
+
+
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My web page</title>
+    <style media="screen">
+
+
+    h2{
+       text-shadow: 2px 1px 5px red;
+       text-transform: lowercase;
+    }
+
+
+    </style>
+  </head>
+  <body >
+    <h2>HELLO THERE!</h2>
+
+
+  </body>
+
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My webpage</title>
+    <style media="screen">
+    #h1{
+      font-family: serif;
+    }
+    #h2{
+      font-family: sans-serif;
+    }
+    #h3{
+      font-family: monospace;
+    }
+    #h4{
+      font-family: cursive;
+    }
+    #h5{
+      font-family: fantasy;
+    }
+
+
+        </style>
+  </head>
+  <body >
+    <h2 id="h1">HELLO </h2>
+    <h2 id="h2">HELLO </h2>
+    <h2 id="h3">HELLO </h2>
+    <h2 id="h4">HELLO </h2>
+    <h2 id="h5">HELLO </h2>
+  </body>
+</html>
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My web page</title>
+    <style media="screen">
+     h2{
+       font-family: tahoma, verdana, sans-serif;
+     }
+
+
+
+
+    </style>
+  </head>
+  <body >
+  <h2>Hello there!</h2>
+  </body>
+</html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My web page</title>
+    <style media="screen">
+     p{
+    font-style:oblique;
+    font-weight:bold;
+    font-variant: small-caps;
+     }
+
+
+
+
+    </style>
+  </head>
+  <body >
+  <p>Hello there!</p>
+  </body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My webpage</title>
+    <style media="screen">
+  #h1{
+      font-size: 32px;
+    }
+    #h2{
+      font-size: 200%;
+    }
+    #h3{
+      font-size: 2em;
+    }
+    #h4{
+      font-size: 10vw;
+    }
+    </style>
+  </head>
+  <body >
+<div class="ele1">
+  <h2 id="h1">Hello</h2>
+  <h2 id="h3">Hello</h2>
+
+
+</div>
+<h2 id="h2">Hello</h2>
+<h2 id="h4">Hello</h2>
+  </body>
+</html>
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My webpage</title>
+    <style media="screen">
+    div{
+      font-size: 20px;
+    }
+  #h1{
+      font-size: 100%;
+    }
+    #h2{
+      font-size: 100%;
+    }
+    #h3{
+      font-size: 1em;
+    }
+
+
+    </style>
+  </head>
+  <body >
+<div class="ele1">
+  <h2 id="h1">Hello</h2>
+  <h2 id="h3">Hello</h2>
+
+
+</div>
+<h2 id="h2">Hello</h2>
+
+
+  </body>
+</html>
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My web page</title>
+    <link rel="stylesheet"
+         href="https://fonts.googleapis.com/css?family=Tangerine">
+    <style media="screen">
+    #h1{
+   font-family: 'Tangerine', serif;
+    }
+
+
+
+
+    </style>
+  </head>
+  <body >
+  <h2 id="h1">Hello</h2>
+  <h2 id="h2">Hello</h2>
+
+
+  </body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My web page</title>
+
+
+    <style media="screen">
+  #p1{
+    font-style: italic;
+    font-variant: small-caps;
+    font-weight:bold;
+    font-size:32px;
+    font-family: cursive;
+  }
+  #p2{
+    font: italic small-caps bold 32px cursive;
+  }
+
+
+    </style>
+  </head>
+  <body >
+  <p id="p1">Hello There!</p>
+  <p id="p2">Hello There!</p>
+  </body>
+</html>
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Font Awesome Icons</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+
+<h1>fa fa-child</h1>
+
+
+<i class="fa fa-music">music</i> br
+<i class="fa fa-home" style="font-size:24px">home</i>
+
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Font Awesome Icons</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style media="screen">
+a:link{
+  text-decoration: none;
+  background-color: yellow;
+}
+a:visited{
+  background-color: black;
+  color: red;
+}
+a:hover{
+  background-color: black;
+  color: orange;
+  text-decoration: underline;
+}
+a:active{
+  background-color: red;
+  color: black;
+  font-size: 17px;
+
+
+}
+
+
+
+
+</style>
+</head>
+<body>
+    <a href="https://www.google.com/">Google</a>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>my web page</title>
+    <style media="screen">
+      ul{
+        list-style-type: circle;
+        list-style-image:url('logo.1.jpg');      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li>Lg</li>
+      <li>Nokia</li>
+      <li>Apple</li>
+      <li>Samsung</li>
+    </ul>
+
+
+  </body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>my web page</title>
+    <style media="screen">
+      ul{
+      list-style-position: outside;
+      list-style-type: none;
+      background-color: green;
+      color: red;
+      list-style-image: url('images1.jpg') ;
+      }
+      li{
+        margin-top: 3px;
+        border: 2px solid;
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li>Lg</li>
+      <li>Nokia</li>
+      <li>Apple</li>
+      <li>Samsung</li>
+    </ul>
+
+
+  </body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>my web page</title>
+    <style media="screen">
+     td, th, table{
+      border: 2px solid;
+    }
+    table{
+      width: 50%;
+      text-align: center;
+      border-collapse: collapse;
+    }
+
+
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <th>f-name</th>
+        <th>l-name</th>
+        <th>age</th>
+      </tr>
+      <td>Nandini</td>
+      <td>Lodha</td>
+      <td>18</td>
+    </table>
+  </body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>my web page</title>
+    <style media="screen">
+    h2{
+      display: inline;
+    }
+    span{
+      display: block;
+    }
+
+
+    </style>
+  </head>
+  <body>
+<h2>hello there</h2>
+<h2>my name is nandini Lodha</h2>
+<span>hello there</span>
+<span>my name is nandini Lodha</span>
+  </body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>my web page</title>
+    <style media="screen">
+    .main{
+      border: 2px solid;
+      width: 500px;
+      position: relative;
+    }
+  .box{
+    right: o;
+    position: relative;
+    background-color: grey;
+    border: 1px solid;
+    height: 100px;
+    width: 150px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+  <p>Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences, a paragraph is half a page long, etc. In reality, though, the unity and coherence of ideas among sentences is what constitutes a paragraph.</p> <br>
+  <div class="box">
+  </div>
+    <p>Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences, a paragraph is half a page long, etc. In reality, though, the unity and coherence of ideas among sentences is what constitutes a paragraph.</p>
+ </div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>my web page</title>
+    <style media="screen">
+    .main{
+      border: 2px solid;
+      width: 500px;
+
+
+    }
+  .box{
+    position: sticky;
+    top: 50px;
+ 
+    background-color: grey;
+    border: 1px solid;
+    height: 100px;
+    width: 150px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+  <p>Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences, a paragraph is half a page long, etc. In reality, though, the unity and coherence of ideas among sentences is what constitutes a paragraph.</p> <br>
+  <div class="box">
+  </div>
+    <p>Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences, a paragraph is half a page long, etc. In reality, though, the unity and coherence of ideas among sentences is what constitutes a paragraph.</p>
+    <p>Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences, a paragraph is half a page long, etc. In reality, though, the unity and coherence of ideas among sentences is what constitutes a paragraph.</p>
+    <p>Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences, a paragraph is half a page long, etc. In reality, though, the unity and coherence of ideas among sentences is what constitutes a paragraph.</p>
+ </div>
+</body>
+</html>
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>my web page</title>
+    <style media="screen">
+  .box{
+
+
+    border: 1px solid;
+    height: 300px;
+    width: 300px;
+    overflow-x: scroll;
+    overflow-y:auto;
+      }
+      .main{
+
+
+        border: 1px solid;
+        height: 300px;
+        width: 300px;
+        overflow-x: scroll;
+        overflow-y:auto;
+          }
+    </style>
+  </head>
+  <body>
+  <div class="box">
+    <p>Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences, a paragraph is half a page long, etc. In reality, though, the unity and coherence of ideas among sentences is what constitutes a paragraph.
+      Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences, a paragraph is half a page long, etc. In reality, though, the unity and coherence of ideas among sentences is what constitutes a paragraph.Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences, a paragraph is half a page long, etc. In reality, though, the unity and coherence of ideas among sentences is what constitutes a paragraph.
+    </p>
+
+
+ </div>
+ <div class="main">
+ <img src="images.jpg" alt="">
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>my web page</title>
+    <style media="screen">
+    div{
+      border: 2px solid;
+      float: left;
+    }
+    div.peh1{
+      width: 500px;
+      float: right;
+      padding: 10px;
+      margin: 20px 10px;
+    }
+
+
+    </style>
+  </head>
+  <body>
+    <div class="">
+      <img src="images.jpg" alt="">
+    </div>
+    <div class="peh1">
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+
+</div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>my web page</title>
+    <style media="screen">
+    #in{
+      display: inline;
+      border: 4px solid green;
+      height: 100px;
+      width: 100px;
+    }
+    #inbl{
+      display: inline-block;
+      border: 4px solid green;
+      height: 100px;
+      width: 100px;
+    }
+
+
+    #bl{
+      display: inline;
+      border: 4px solid green;
+      height: 100px;
+      width: 100px;
+    }
+
+
+    </style>
+  </head>
+  <body>
+    <span  id="in">Inline</span>
+    <span id="inbl">Inline Block</span>
+    <span id="bl">Inline</span>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>my web page</title>
+    <style media="screen">
+    .box{
+      margin: auto;
+      border: 3px solid green;
+      width: 300px;
+      text-align: center;
+
+
+    }
+    </style>
+  </head>
+  <body>
+  <div class="box">
+    Hello there!
+  </div>
+</body>
+</html>
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>my web page</title>
+    <style media="screen">
+img{
+  width: 500px;
+  margin: auto;
+  display: block;
+}
+    </style>
+  </head>
+  <body>
+<img src="logo2.jpg" alt="">
+</body>
+</html>
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>my web page</title>
+    <style media="screen">
+    *{
+      position: relative;
+    }
+    .box{
+    height: 300px;
+    width: 400px;
+    border: 3px solid red;
+    position: absolute;
+    right: 0px;
+
+
+    }
+    </style>
+  </head>
+  <body>
+  <div class="box">
+
+
+  </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>my web page</title>
+    <style media="screen">
+
+
+    .box{
+    border: 3px solid green;
+    justify-content: center;
+    display: flex;
+    align-items:center;
+    height: 300px;
+    }
+    </style>
+  </head>
+  <body>
+  <div class="box">
+    <p>Hello there! My name is Nandini Lodha.</p>
+
+
+  </div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>my web page</title>
+    <style media="screen">
+
+
+    .box{
+      height: 500px;
+      width: 700px;
+      border: 2px solid;
+      background-color: rgba(255, 0, 0, 0.9)
+  }
+  .box.hover{
+    opacity: 0.7;
+  }
+  img{
+    opacity: 1;
+  }
+    </style>
+  </head>
+  <body>
+  <div class="box">
+    <img src="logo.jpg" alt="">
+
+
+  </div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>my web page</title>
+    <style media="screen">
+ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+li{
+  float: left;
+  padding: 0 6px;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+    </style>
+  </head>
+  <body>
+  <ul>
+    <li><a href="#">Home</a> </li>
+    <li><a href="#">News</a> </li>
+    <li><a href="#">About Us</a> </li>
+    <li><a href="#">Contact Us</a> </li>
+  </ul>
+  </div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>my web page</title>
+    <style media="screen">
+.box{
+  border: 3px solid red;
+  height: 100px;
+  width: 100px;
+  cursor:all-scroll;
+}
+    </style>
+  </head>
+  <body>
+<div class="box">
+
+
+</div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>my web page</title>
+    <style media="screen">
+*{
+  padding: 0;
+  margin: 0;
+
+
+}
+.nav{
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 30%;
+  color: white;
+  border: 1px solid;
+  line-height: 25px;
+
+
+}
+.nav ul{
+  list-style-type: none;
+}
+.nav a{
+  text-decoration: none;
+  color: inherit;
+}
+.nav ul li{
+  border: 1px solid;
+  width: 100%;
+  line-height: 25px;
+  display: none;
+
+
+}
+.nav:hover li{
+  display: block;
+}
+    </style>
+  </head>
+  <body>
+<div class="nav">
+  Brand
+  <ul>
+    <li> <a href="https://www.sony.com/en/">Sony</a></li>
+    <li> <a href="https://www.sony.com/en/">Apple</a></li>
+    <li> <a href="https://www.sony.com/en/">Nokia</a></li>
+    <li> <a href="https://www.sony.com/en/">Samsung</a></li>
+ 
+  </ul>
+
+
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>my web page</title>
+    <style media="screen">
+    *{
+      margin: 0;
+      padding: 0;
+
+
+    }
+    .nav ul li{
+      list-style-type: none;
+      float: left;
+      width: 120px;
+      line-height: 30px;
+      background-color: rgba(0, 0, 0, 0.8);
+      color: white;
+    }
+    .nav ul li:hover{
+      background-color: rgba(255, 140, 0, 0.8);
+      color: black;
+    }
+    .nav ul li ul{
+      display: none;
+    }
+    .nav ul li:hover > ul{
+      display: block;
+    }
+    .nav ul li ul li{
+      display: inline-block;
+      position: relative;
+
+
+    }
+    .nav ul li ul li ul{
+      position: absolute;
+      left:120px;
+      top:0;
+    }
+
+
+    </style>
+  </head>
+  <body>
+<div class="nav">
+<ul>
+  <li>Sony
+    <ul>
+      <li>LED TV</li>
+      <li>Mobiles</li>
+      <li>Appliances</li>
+    </ul>
+  </li>
+    <li>Nokia
+      <ul>
+        <li>LED TV</li>
+        <li>Mobiles</li>
+        <li>Appliances</li>
+      </ul>
+    </li>
+    <li>Samsung
+      <ul>
+        <li>LED TV</li>
+        <li>Mobiles</li>
+        <li>Appliances</li>
+      </ul>
+      <ul>
+          <li>Oven</li>
+          <li>Microwave</li>
+          <li>Coffee Maker</li>
+        </ul>
+      </li>
+      </ul>
+    </li>
+
+
+</div>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Combinators</title>
+    <style media="screen">
+   div ~ h2{
+      background-color: light green;
+    }
+
+
+    </style>
+  </head>
+  <body>
+<div class="">
+  <h2>Heading 1</h2>
+  <h2>Heading 2</h2>
+</div>
+<h2>Heading 3</h2>
+<h2>Heading 4</h2>
+<div class="">
+  <h2>Heading 5</h2>
+  <h2>Heading 6</h2>
+</div>
+<h2>Heading 7</h2>
+<h2>Heading 8</h2>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Pseudo Classes</title>
+    <style media="screen">
+    h4:first-of-type{
+      color: red;
+    }
+     </style>
+  </head>
+  <body>
+<div class="">
+  <h4>Heading 1</h4>
+  <h4>Heading 2</h4>
+  <h4>Heading 3</h4>
+  <h4>Heading 4</h4>
+</div>
+<h4>Heading 5</h4>
+<h4>Heading 6</h4>
+<h4>Heading 7</h4>
+<div class="">
+  <h4>Heading 8</h4>
+  <h4>Heading 9</h4>
+  <h4>Heading 10</h4>
+  <p>Heading 11</p>
+</div>
+<div class="">
+  <h4>Heading 12</h4>
+</div>
+<div class="">
+  <p>Heading 13</p>
+</div>
+</body>
+
+
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Pseudo Classes</title>
+    <style media="screen">
+     h4::first-letter{
+       color: red;
+       font-size: 24px;
+     }
+     h3::first-line{
+       color: red;
+       font-size: 24px;
+     }
+     p::selection{
+       background-color: black;
+       color: yellow;
+     }
+     h4::before{
+       content: "Hello everyone"
+     }
+     p::after{
+       content: "adios amigo"
+     }
+
+
+
+
+     </style>
+  </head>
+  <body>
+Hello everyone, how's everything going!!!
+<p>Hello everyone, how's everything going!!!</p>
+<h3>Hello everyone, how's everything going!!!</h3>
+<h4> How's everything going!!!
+Hello everyone, how's everything going!!!Hello everyone, how's everything going!!!Hello everyone, how's everything going!!!</h4>
+</body>
+
+
+</html>
+
+
+WEBFORM IN CSS 
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Pseudo Classes</title>
+    <style media="screen">
+    form{
+      border: 1px solid #ccc;
+      padding: 10px;
+      background-color: #f2f2f2;
+    }
+    input,select{
+      width: 100%;
+      box-sizing: border-box;
+      display: inline-block;
+      border: 1px solid #ccc;
+      margin: 4px 0;
+      padding: 5px 1px;
+    }
+    input[type=submit], input[type=reset]{
+      margin: 20px 0 0 0;
+      background-color: #4caf50;
+    }
+       </style>
+  </head>
+  <body>
+    <form class="" action="index.html" method="post">
+      <label for="fname">First name</label>
+      <input type="text" id="fname" name="" value="" placeholder="First Name">
+      <label for="lname" >Last name</label>
+      <input type="text"id="lname" name="" value="" placeholder="Last name">
+      <label for="num" >Contact no.</label>
+      <input type="text" id="num" name="" value="" placeholder="Contact no.">
+      <label for="mail">Email</label>
+      <input type="text" id="mail" name="" value="">
+      <label for="gend">Gernder</label>
+      <select class="" name="Gernder">
+        <option value="male"></option>
+        <option value="Female"></option>
+        <option value="other"></option>
+      </select>
+      <input type="submit" name="" value="submit">
+      <input type="reset" name="" value="reset">
+
+
+    </form>
+</body>
+
+
+</html>
+
+
+
+
+NAVIGATION BAR USING FLEX
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Pseudo Classes</title>
+    <style media="screen">
+  *{
+    margin: 0; padding: 0; box-sizing: border-box;
+  }
+  nav{width: 100%; display: flex;
+  }
+  .logo{width: 60%; line-height: 50px; background-color: green; padding-left: 15px
+  }
+  .navbar{
+    width: 40%; background-color: yellow;
+  }
+  .navbar ul{
+    list-style-type: none; display: flex;
+    justify-content: space-around;
+  }
+  .navbar ul li:hover{
+    text-shadow: 1px 1px black;
+  }
+       </style>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <h1>website logo</h1>
+      </div>
+      <div class="navbar">
+        <ul>
+          <li>Home</li>
+          <li>News</li>
+          <li>About Us</li>
+        </ul>
+      </div>
+    </nav>
+</body>
+</html>
+
+
+
+
+
+
